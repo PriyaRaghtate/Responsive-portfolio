@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&family=Lexend+Deca:wght@100;200;300;400;500;600;700&family=Montserrat:wght@400;700&family=Mulish:wght@300&family=Poppins:wght@300;400;600&family=Urbanist:wght@300;400;600;700;800;900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "urbanist",sans-serif;
+}
+
+:root{
+    --bs-dark-color: #1a1d20;
+    --bs-dark-primary:#1c1c1c;
+    --bs-main-color:#fff;
+    --bs-primary-color:#c6c6c6;
+    --secondary-color:#29a9fd;
+    --bs-supporting-color:#c850c0;
+}
+h1,h2,h3,h4,h5{
+    font-family: 'Lexend Deca',sans-serif;
+    color: var(--bs-dark-color);
+
+}
+
+h1{
+    font-size: 4rem;
+}
+h2{
+    line-height: 3rem;
+    font-weight: 600;
+    font-size: 3.4rem;
+}
+p{
+    margin:0;
+    font-weight: 400;
+    font-size: 1rem;
+    color:var(--bs-dark-color);
+    letter-spacing: 0.07rem;
+    line-height: 1.55rem;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.bg-main{
+    height: 90vh;
+    position: relative;
+}
+.bg-color{
+    background-color: var(--bs-dark-primary);
+}
+.bg-theme{
+    color: var(--bs-supporting-color);
+    background-image: none!important;
+}
+.fa-star{
+    color: var(--bs-supporting-color);
+}
+/*navbar style*/
+
+
+.nav-link:hover{
+    color: plum !important;
+    text-decoration: underline;
+}
+
+button, a{
+    font-size: 1.15rem !important;
+    letter-spacing: 0.03rem;
+    word-spacing: 0.1rem;
+    font-weight: bold;
+}
+.common-heading{
+    font-size: 2.8rem;
+    font-weight: 500;
+    letter-spacing: 0.01rem !important;
+}
+.comman-title{
+    margin-bottom: 4.2rem;
+}
+
+
+/*hero-section*/
+.hero-video--section{
+    width: 30rem;
+    border-radius: 3rem;
+}
+.hero-section .container{
+    display: grid;
+    place-items: center;
+    height: inherit;
+}
+.hero-section h1{
+    font-size: 3.4rem;
+}
+.text-light-grey{
+    color: var(--bs-primary-color)
+}
+@media screen and (max-width: 1400px) {
+
+    .hero-video--section{
+        width: 25rem;
+        border-radius: 1rem;
+    }
+}
+@media screen and (max-width: 1200px) {
+
+    .hero-section{
+        height: 80vh;
+    }
+
+    .hero-video--section{
+        width: 20rem;
+        border-radius: 1rem;
+    }
+}
+@media screen and (max-width: 998px) {
+
+    h1{
+        font-size: 2.4rem;
+    }
+
+    section .common-heading{
+        font-size: 2rem;
+    }
+
+    section  .para-width{
+        width:  auto;
+    }
+
+    .hero-section{
+        height: 100vh;
+    }
+
+    .navbar-toggler{
+        border-color: var( --bs-main-color);
+    }
+    .navbar-toggler-icon{
+        background-color: var( --bs-main-color);
+    }
+
+}
+
+.custom-shape-divider-bottom-1692357972 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1692357972 svg {
+    position: relative;
+    display: block;
+    width: calc(111% + 1.3px);
+    height: 133px;
+}
+
+.custom-shape-divider-bottom-1692357972 .shape-fill {
+    fill: #FFFFFF;
+}
+/* service-section */
+
+.serviceText .card{
+    height:280px;
+    cursor: pointer;
+}
+.servicesIcon{
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+.card-title{
+    text-align: center;
+}
+.card:hover .servicesIcon{
+    color:gray;
+    box-shadow: #1a1d20;
+}
+.servicesText:hover{
+    border: 2px solid gray ;
+    box-shadow: #1a1d20;
+}
+/*About section*/
+img{
+   float: left;
+}
+.para{
+    font-weight: bolder;
+    color: rgb(241, 206, 212);
+    text-decoration: underline;
+}
+#about{
+    margin-top: 30px;
+    padding-top: 40px;
+
+}
+.about-inside{
+    text-align: center;
+    align-content: flex-start;
+    font-size: 6px;
+}
+.skills{
+    display: flex;
+	flex-wrap: wrap;
+	margin-top: 28px;
+	margin-bottom: 32px;
+}
+.skills span{
+    font-size: 20px;
+	border: 2px solid rgba(41, 41, 41, 0.1);
+	padding: 6px 16px;
+	border-radius: 40px;
+	margin: 0 5px 5px 0;
+	background: #fff;
+}
+.skills span:hover{
+    color: rebeccapurple;
+}
+
+
+
+
+
+/*footer*/
+.social-icons {
+    font-size: 50px;
+    cursor: pointer;
+}
+.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover {
+    color: red;
+}
+.fab {
+    color: cadetblue;
+}
+/* footer styling */
+#footer {
+    background-color: white;
+    text-align: center;
+}
