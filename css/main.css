@@ -191,10 +191,32 @@ button, a{
 img{
    float: left;
 }
+.about-inside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+@media (max-width: 767px) {
+    .about-inside {
+        flex-direction: column;
+    }
+}
+
 .para{
     font-weight: bolder;
     color: rgb(241, 206, 212);
-    text-decoration: underline;
+    font-family: 'Borel', cursive;
+}
+.text{
+    letter-spacing: 2px;
+    word-spacing: 1px;
+}
+@media (max-width: 767px) {
+    .col-lg-8 {
+        margin-left: 20px;
+    }
 }
 #about{
     margin-top: 30px;
