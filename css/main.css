@@ -83,6 +83,12 @@ button, a{
 .comman-title{
     margin-bottom: 4.2rem;
 }
+@media (max-width: 767px) { 
+    .center-button-mobile {
+        display: flex;
+        justify-content: center;
+    }
+}
 
 
 /*hero-section*/
@@ -146,25 +152,6 @@ button, a{
 
 }
 
-.custom-shape-divider-bottom-1692357972 {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-}
-
-.custom-shape-divider-bottom-1692357972 svg {
-    position: relative;
-    display: block;
-    width: calc(111% + 1.3px);
-    height: 133px;
-}
-
-.custom-shape-divider-bottom-1692357972 .shape-fill {
-    fill: #FFFFFF;
-}
 /* service-section */
 
 .serviceText .card{
@@ -187,6 +174,10 @@ button, a{
     border: 2px solid gray ;
     box-shadow: #1a1d20;
 }
+/* .card-box:hover{
+    box-shadow: rgba(149, 157, 165, 0.2) 0 8px 24px;
+} */
+
 /*About section*/
 img{
    float: left;
@@ -246,7 +237,24 @@ img{
     color: rebeccapurple;
 }
 
-
+/*digital product*/
+.more-info-section{
+    background-image: linear-gradient(rgba(22,22,22,0.7), rgba(22,22,22,0.9)), url("https://images.pexels.com/photos/316093/pexels-photo-316093.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 6rem 0;
+    overflow: hidden;
+}
+.more-info-section .img-secton{
+    position: relative;
+}
+/* .more-info-section .img-secton .img{
+    position: absolute;
+    left: 0;
+    width: 30%;
+} */
 
 
 
