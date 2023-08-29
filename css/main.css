@@ -302,11 +302,11 @@ img{
     left: 0;
     width: 40%;
 } 
-@media (max-width: 995px) {
+/* @media (max-width: 995px) {
     .digital-product-button {
         margin-bottom: 50px;
     }
-}
+} */
 
 
 
