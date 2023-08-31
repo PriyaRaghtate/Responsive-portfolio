@@ -193,22 +193,6 @@ button, a{
     }
 
 }
-/*button*/
-/* For screens with width up to 767px (small devices) */
-@media (max-width: 767px) {
-    .hero-section .btn {
-        margin: 10px auto; /* Center the button and adjust vertical margin */
-        padding: 10px 20px; /* Adjust padding as needed */
-    }
-}
-
-/* For screens with width 768px and above (medium and large devices) */
-@media (min-width: 768px) {
-    .hero-section .btn {
-        margin: 20px 0; /* Adjust vertical margin */
-        padding: 15px 30px; /* Adjust padding as needed */
-    }
-}
 
 /* service-section */
 
@@ -258,6 +242,18 @@ img{
     align-items: center;
     text-align: center;
 }
+.about-inside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.about-img {
+    max-width: 100%; /* Ensure the image doesn't exceed its parent's width */
+    height: auto; /* Maintain aspect ratio while adjusting width */
+}
+
 
 @media (max-width: 767px) {
     .about-inside {
