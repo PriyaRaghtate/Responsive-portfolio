@@ -23,7 +23,7 @@ h1,h2,h3,h4,h5{
 }
 
 h1{
-    font-size: 4rem;
+    font-size: 3rem;
 }
 h2{
     line-height: 3rem;
@@ -35,7 +35,7 @@ p{
     font-weight: 400;
     font-size: 1rem;
     color:var(--bs-dark-color);
-    letter-spacing: 0.07rem;
+    letter-spacing: 0.05rem;
     line-height: 1.55rem;
     font-synthesis: none;
     text-rendering: optimizeLegibility;
@@ -101,6 +101,27 @@ button, a{
 
 
 /*hero-section*/
+/* For screens with width up to 767px (small devices) */
+@media (max-width: 767px) {
+    .hero-section-img {
+        padding-top: 20px; /* Adjust the padding value as needed */
+    }
+}
+
+/* For screens with width 768px to 991px (medium devices) */
+@media (min-width: 768px) and (max-width: 991px) {
+    .hero-section-img {
+        padding-top: 30px; /* Adjust the padding value as needed */
+    }
+}
+
+/* For screens with width 992px and above (large devices) */
+@media (min-width: 992px) {
+    .hero-section-img {
+        padding-top: 50px; /* Adjust the padding value as needed */
+    }
+}
+
 .hero-video--section{
     width: 30rem;
     border-radius: 3rem;
@@ -171,6 +192,22 @@ button, a{
         background-color: var( --bs-main-color);
     }
 
+}
+/*button*/
+/* For screens with width up to 767px (small devices) */
+@media (max-width: 767px) {
+    .hero-section .btn {
+        margin: 10px auto; /* Center the button and adjust vertical margin */
+        padding: 10px 20px; /* Adjust padding as needed */
+    }
+}
+
+/* For screens with width 768px and above (medium and large devices) */
+@media (min-width: 768px) {
+    .hero-section .btn {
+        margin: 20px 0; /* Adjust vertical margin */
+        padding: 15px 30px; /* Adjust padding as needed */
+    }
 }
 
 /* service-section */
