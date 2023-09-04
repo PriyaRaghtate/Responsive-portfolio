@@ -223,7 +223,7 @@ img {
     height: auto;
     float: left;
     padding: 10px;
-    margin: 20px;
+    margin: 10px;
 }
 
 @media (max-width: 767px) {
